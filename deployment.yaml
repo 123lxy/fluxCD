@@ -18,3 +18,6 @@ spec:
       containers:
       - image: lyzhang1999/hello-world-flask:latest
         name: hello-world-flask
+        env:
+        - name: test
+          value: my_env
